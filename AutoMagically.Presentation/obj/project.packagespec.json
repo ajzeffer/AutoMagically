@@ -1,0 +1,58 @@
+﻿{
+  "version": "1.0.0",
+  "restore": {
+    "projectUniqueName": "/Users/adamzeffer/git/sandbox/AutoMagically/AutoMagically.Presentation/AutoMagically.Presentation.csproj",
+    "projectName": "AutoMagically.Presentation",
+    "projectPath": "/Users/adamzeffer/git/sandbox/AutoMagically/AutoMagically.Presentation/AutoMagically.Presentation.csproj",
+    "outputPath": "/Users/adamzeffer/git/sandbox/AutoMagically/AutoMagically.Presentation/obj/",
+    "projectStyle": "PackageReference",
+    "fallbackFolders": [
+      "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+    ],
+    "originalTargetFrameworks": [
+      "netcoreapp2.1"
+    ],
+    "frameworks": {
+      "netcoreapp2.1": {
+        "projectReferences": {
+          "/Users/adamzeffer/git/sandbox/AutoMagically/AutoMagically.Domain/AutoMagically.Domain.csproj": {
+            "projectPath": "/Users/adamzeffer/git/sandbox/AutoMagically/AutoMagically.Domain/AutoMagically.Domain.csproj"
+          }
+        }
+      }
+    },
+    "warningProperties": {
+      "warnAsError": [
+        "NU1605"
+      ]
+    }
+  },
+  "frameworks": {
+    "netcoreapp2.1": {
+      "dependencies": {
+        "Microsoft.AspNetCore.App": {
+          "suppressParent": "All",
+          "target": "Package",
+          "version": "[2.1.1, )",
+          "autoReferenced": true
+        },
+        "Microsoft.AspNetCore.Razor.Design": {
+          "suppressParent": "All",
+          "target": "Package",
+          "version": "[2.1.2, )"
+        },
+        "Microsoft.NETCore.App": {
+          "suppressParent": "All",
+          "target": "Package",
+          "version": "[2.1.0, )",
+          "autoReferenced": true
+        }
+      },
+      "imports": [
+        "net461"
+      ],
+      "assetTargetFallback": true,
+      "warn": true
+    }
+  }
+}

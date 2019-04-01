@@ -1,0 +1,9 @@
+/Users/adamzeffer/git/sandbox/AutoMagically/AutoMagically.Infrastructure/bin/Debug/netstandard2.0/AutoMagically.Infrastructure.deps.json
+/Users/adamzeffer/git/sandbox/AutoMagically/AutoMagically.Infrastructure/bin/Debug/netstandard2.0/AutoMagically.Infrastructure.dll
+/Users/adamzeffer/git/sandbox/AutoMagically/AutoMagically.Infrastructure/bin/Debug/netstandard2.0/AutoMagically.Infrastructure.pdb
+/Users/adamzeffer/git/sandbox/AutoMagically/AutoMagically.Infrastructure/obj/Debug/netstandard2.0/AutoMagically.Infrastructure.csprojAssemblyReference.cache
+/Users/adamzeffer/git/sandbox/AutoMagically/AutoMagically.Infrastructure/obj/Debug/netstandard2.0/AutoMagically.Infrastructure.csproj.CoreCompileInputs.cache
+/Users/adamzeffer/git/sandbox/AutoMagically/AutoMagically.Infrastructure/obj/Debug/netstandard2.0/AutoMagically.Infrastructure.AssemblyInfoInputs.cache
+/Users/adamzeffer/git/sandbox/AutoMagically/AutoMagically.Infrastructure/obj/Debug/netstandard2.0/AutoMagically.Infrastructure.AssemblyInfo.cs
+/Users/adamzeffer/git/sandbox/AutoMagically/AutoMagically.Infrastructure/obj/Debug/netstandard2.0/AutoMagically.Infrastructure.dll
+/Users/adamzeffer/git/sandbox/AutoMagically/AutoMagically.Infrastructure/obj/Debug/netstandard2.0/AutoMagically.Infrastructure.pdb
