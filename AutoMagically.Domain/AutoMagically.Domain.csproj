@@ -1,7 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <ItemGroup>
-    <ProjectReference Include="..\Automagically.Infrastructure\AutoMagically.Infrastructure.csproj" />
+    <ProjectReference Include="..\AutoMagically.Infrastructure\AutoMagically.Infrastructure.csproj" />
   </ItemGroup>
 
   <PropertyGroup>

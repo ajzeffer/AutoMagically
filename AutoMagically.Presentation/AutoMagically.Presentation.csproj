@@ -10,7 +10,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Automagically.Domain\AutoMagically.Domain.csproj" />
+    <ProjectReference Include="..\AutoMagically.Domain\AutoMagically.Domain.csproj" />
   </ItemGroup>
 
 </Project>

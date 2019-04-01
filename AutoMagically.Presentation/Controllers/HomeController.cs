@@ -21,7 +21,7 @@ namespace AutoMagically.Presentation.Controllers
         }
         public IActionResult Index()
         {
-            return Content(string.Join(",",_magicReader.List())); 
+            return Content(string.Join(",",_magicReader.List().Select(x => x.Name))); 
         }
 
         public IActionResult About()
