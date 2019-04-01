@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoMagically.Presentation"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoMagically.Infrastructure", "AutoMagically.Infrastructure\AutoMagically.Infrastructure.csproj", "{7162D667-5D14-486A-9805-C32D6F636CBD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoMagically.Domain.Tests", "AutoMagically.Domain.Tests\AutoMagically.Domain.Tests.csproj", "{CE838EC1-EDA1-4348-95AE-C90AA7E013E0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -58,5 +60,17 @@ Global
 		{7162D667-5D14-486A-9805-C32D6F636CBD}.Release|x64.Build.0 = Release|Any CPU
 		{7162D667-5D14-486A-9805-C32D6F636CBD}.Release|x86.ActiveCfg = Release|Any CPU
 		{7162D667-5D14-486A-9805-C32D6F636CBD}.Release|x86.Build.0 = Release|Any CPU
+		{CE838EC1-EDA1-4348-95AE-C90AA7E013E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE838EC1-EDA1-4348-95AE-C90AA7E013E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE838EC1-EDA1-4348-95AE-C90AA7E013E0}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{CE838EC1-EDA1-4348-95AE-C90AA7E013E0}.Debug|x64.Build.0 = Debug|Any CPU
+		{CE838EC1-EDA1-4348-95AE-C90AA7E013E0}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{CE838EC1-EDA1-4348-95AE-C90AA7E013E0}.Debug|x86.Build.0 = Debug|Any CPU
+		{CE838EC1-EDA1-4348-95AE-C90AA7E013E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE838EC1-EDA1-4348-95AE-C90AA7E013E0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CE838EC1-EDA1-4348-95AE-C90AA7E013E0}.Release|x64.ActiveCfg = Release|Any CPU
+		{CE838EC1-EDA1-4348-95AE-C90AA7E013E0}.Release|x64.Build.0 = Release|Any CPU
+		{CE838EC1-EDA1-4348-95AE-C90AA7E013E0}.Release|x86.ActiveCfg = Release|Any CPU
+		{CE838EC1-EDA1-4348-95AE-C90AA7E013E0}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

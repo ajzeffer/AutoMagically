@@ -22,4 +22,20 @@ Boom Shaka Laka
 I used the dotnet CLI to add my project references and when I did that I typed 
 dotnet add Automagically.Presentation reference Automagically.Domain
 
-` CASE SENSITIVITY broke it Automagically need to be AutoMagically .. DOH` 
+` CASE SENSITIVITY broke it Automagically need to be AutoMagically .. DOH`
+
+## Test results in dev.azure.com
+In order to get test results into azure devops we are going to need to run a seperate 
+container and output the results to a mounted volume 
+
+```
+docker-compose -f docker-compose.tests.yml up 
+```
+
+which runs 
+```
+dotnet test --logger trx --results-directory temp
+
+``` 
+
+> results will be placed in ./TestResults/*.trx

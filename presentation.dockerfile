@@ -10,6 +10,7 @@ WORKDIR /src
 COPY *.sln ./
 COPY AutoMagically.Presentation/AutoMagically.Presentation.csproj  ./AutoMagically.Presentation/
 COPY AutoMagically.Domain/AutoMagically.Domain.csproj ./AutoMagically.Domain/
+COPY AutoMagically.Domain.Tests/AutoMagically.Domain.Tests.csproj ./AutoMagically.Domain.Tests/
 COPY AutoMagically.Infrastructure/AutoMagically.Infrastructure.csproj ./AutoMagically.Infrastructure/
                                                        
 RUN dotnet restore

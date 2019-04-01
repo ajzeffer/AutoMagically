@@ -1,0 +1,18 @@
+version: '3.4'
+
+services:
+  vstsdockerbuild.tests:
+    environment:
+      - BLOWUP
+    image: vstsdockerbuild.tests
+    build:
+      context: .
+      dockerfile: presentation.dockerfile
+      target: builder
+    #entrypoint: dotnet test --logger trx --results-directory /var/temp
+    #LOCAL DEV
+    entrypoint: dotnet test --logger trx --results-directory /temp
+    volumes:
+      #- /opt/vsts/work/_temp:/var/temp
+      # LOCAL DEV 
+      - ./TestResults:/temp  
